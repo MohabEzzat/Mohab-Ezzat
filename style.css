@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    color: #3a6cf4;
+}
+header{
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background-color: #f0f0f0 ;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+z-index: 999;
+}
+.logo{
+    font-size: 1.6em;
+    font-weight: 600;
+    text-decoration: none;
+}
+ol
+{
+    list-style-type: none;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+
+    font-size: 1.2em;
+}
+nav a:hover{
+color: #424141;
+}
+section {
+    padding: 100px 130px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+   justify-content: space-between;
+}
+
+.main h2 {
+    color: rgb(78, 78, 78);
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.info {
+    text-align: center;
+}
+
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.info p{
+    color: #000;
+}
+.card {
+    background-color: #fff;
+    width: 25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card .icon {
+    color: #3a6cf4;
+    font-size: 7em;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #f0f0f0;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.ic{
+    font-size: 3em;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3a6cf4;
+    font-size: 3em;
+    font-weight: 600;
+    }
+
+.main h3 {
+    color: rgb(78, 78, 78);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #3a6cf4;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: #3a6cf4;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+
+.text-content{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+    z-index: 12;
+  }
+ .text-content .text{
+    font-size: 27px;
+    color: #2c3350;
+  }
+   .text-content .name{
+  color: #2c3350;
+   font-size: 75px;
+   font-weight: 600;
+   margin: -20px 0 0 -3px;
+  }
+   .text-content .job{
+   color: #2c3350;
+   font-size: 40px;
+   margin: 5px 0;
+   margin-top: -4px;
+   display: flex;
+  }
+  .ttt{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #3a6cf4;
+    animation: typing 5s steps(1000) infinite;
+  }
+  @keyframes typing{
+    0%{
+      width: 0%;
+    }
+    50%{
+      width: 100%;
+    }
+    100%{
+      width: 0%;
+    }
+  }
+
+
+#knowlage,#ex{
+    background-color: #3a6cf4;
+}
+ 
+
+
+
+
+
+    img {
+        vertical-align: middle;
+    }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container2 {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides2 {
+    display: none;
+    width: 50%;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor2 {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev2,
+  .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #3a6cf4;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev2{
+    left: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev2:hover,
+  .next2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f0f0f0;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext2 {
+    color: #3a6cf4;
+    font-size: 12px;
+    padding: 8px 12px;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container2 {
+    text-align: center;
+    background-color:  #3a6cf4;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column2 {
+    float: left;
+    width: 10%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  /* .all{
+  
+  width: 100%;
+  } */
+  #cert{
+    padding: 50px 0px;
+  }
+#caption2{
+    padding: 10px;
+    color: #f0f0f0;
+    background-color: #3a6cf4;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/*  */
+
+.social002 {
+    position: relative;
+    top: 20px;
+  }
+  .social002 ul {
+    padding: 0px;
+    transform: translate(-360px, 0);
+  }
+  .social002 ul li {
+    display: block;
+    margin: 5px;
+    background: #3a6cf4;
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    transition: all 1s;
+
+  }
+ nav ul a{
+    font-size: 0.8em;
+ }
+  .social002 ul li i {
+    margin-left: 10px;
+    color: #3a6cf4;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    transform: rotate(0deg);
+    
+  }
+  .social002 ul li:hover i {
+
+    transform: rotate(360deg);
+    transition: all 1s;
+  }
+  #pw2:hover{
+    transform: translate(130px, 0);
+    background: #3a6cf4;
+    color: #f0f0f0;
+  
+  }
+  .social002 ul li:hover a {
+    color: #f0f0f0;
+  }
+  .social002 ul li:hover {
+    transform: translate(100px, 0);
+    background: #3a6cf4;
+    color: #f0f0f0;
+  }
+   #mail:hover{
+    transform: translate(200px, 0);
+    background: #3a6cf4;
+    color: #f0f0f0;
+  
+  }
+  #pw:hover{
+    transform: translate(130px, 0);
+    background: #3a6cf4;
+    color: #f0f0f0;
+  
+  } 
+  .form-control{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #3a6cf4;
+    margin-bottom: 12px;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  h5{
+    padding: 5px;
+    font-size: 1em;
+  }
+  .card2:hover {
+    transform: scale(1);
+}
+.card2{
+    position: relative;
+    left: -20%;
+}
+#contact{
+    padding: 70px 130px;
+
+}
+footer{
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #3a6cf4;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding: 15px 60px;
+}
+footer h4 , footer a{
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 400;
+
+}
+footer a:hover{
+  color: #2c3350;
+
+}
